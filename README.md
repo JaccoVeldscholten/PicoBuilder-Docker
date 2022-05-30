@@ -11,6 +11,8 @@ docker pull jjveldscholten:picobuilder:latest
 
 ## Usage
 
+Make build folder in source dir or adjust bash from docker container
+
 1. Pull image from repo
 2. Run following comment from project folder 
 

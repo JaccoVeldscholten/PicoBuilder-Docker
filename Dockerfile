@@ -1,6 +1,6 @@
-# Running with powershell:  docker run --rm -it  -v ${PWD}:/project  jjveldscholten/picobuilder bash -c 'cd build&&  ls && cmake .. && make'
-# Running with CMD:         docker run --rm -it  -v %cd%:/project  jjveldscholten/picobuilder cmd /c 'cd build&&  ls && cmake .. && make'
-# Running with Linux:       docker run --rm -it  -v pwd:/project  jjveldscholten/picobuilder bash -c 'cd build&&  ls && cmake .. && make'X
+# Running with powershell:  docker run --rm -it  -v ${PWD}:/project  jjveldscholten/picobuilder bash -c 'cd build && ls && cmake .. && make'
+# Running with CMD:         docker run --rm -it  -v %cd%:/project  jjveldscholten/picobuilder cmd /c 'cd build && ls && cmake .. && make'
+# Running with Linux:       docker run --rm -it  -v pwd:/project  jjveldscholten/picobuilder bash -c 'cd build && ls && cmake .. && make'
 
 # Using Ubuntu 
 FROM ubuntu:20.04
